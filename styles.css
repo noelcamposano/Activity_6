@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+
+    h1 {
+        display: none;
+    }
+
+    body {
+        background-color: red;
+    }
+
+    .flex-container {
+        background-color: black !important;
+        flex-direction: column !important;
+        align-items: flex-end !important;
+    }
+
+}
+
+@media screen and (min-width: 680px) {
+    body {
+        background-color: purple;
+    }
+
+    .flex-container {
+        flex-direction: column-reverse !important;
+        align-items: flex-start !important;
+
+    }
+}
+
+
+.flex-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: bisque;
+    padding: 6vw;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
